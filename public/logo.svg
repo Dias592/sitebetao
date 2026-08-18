@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <rect width="240" height="240" fill="#EDEFE7"/>
+  <circle cx="120" cy="110" r="62" fill="none" stroke="#B98A2E" stroke-width="4" stroke-dasharray="6 7" transform="rotate(-8 120 110)"/>
+  <text x="120" y="122" font-family="IBM Plex Mono, monospace" font-size="34" font-weight="600" fill="#8A6620" text-anchor="middle" transform="rotate(8 120 110)">EB</text>
+  <text x="120" y="200" font-family="Georgia, serif" font-style="italic" font-size="30" fill="#16241F" text-anchor="middle">Essenza</text>
+  <text x="120" y="222" font-family="IBM Plex Mono, monospace" font-size="12" letter-spacing="3" fill="#8A6620" text-anchor="middle">BRINDES</text>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#EDEFE7"/>
+  <circle cx="600" cy="255" r="110" fill="none" stroke="#B98A2E" stroke-width="4" stroke-dasharray="8 9" transform="rotate(-8 600 255)"/>
+  <text x="600" y="272" font-family="Georgia, serif" font-size="56" font-weight="600" fill="#8A6620" text-anchor="middle" transform="rotate(8 600 255)">EB</text>
+  <text x="600" y="430" font-family="Georgia, serif" font-style="italic" font-size="72" fill="#16241F" text-anchor="middle">Essenza</text>
+  <text x="600" y="475" font-family="Arial, sans-serif" font-size="20" letter-spacing="6" fill="#8A6620" text-anchor="middle">BRINDES PERSONALIZADOS</text>
+  <text x="600" y="540" font-family="Arial, sans-serif" font-size="18" fill="#2C3B34" text-anchor="middle">essenzabrindes.com.br</text>
+</svg>

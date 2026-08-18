@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ink: #16241f;
+  --paper: #edefe7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.eyebrow {
+  color: theme("colors.brass-dark");
+}
+
+.wrap {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--ink);
+  color: theme("colors.paper-2");
+  padding: 10px 20px;
+  border-radius: 2px;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  border: 1px solid var(--ink);
+  transition: background 0.2s;
+}
+.btn:hover {
+  background: theme("colors.ink-soft");
+}
+.btn-outline {
+  background: transparent;
+  color: var(--ink);
+  border: 1px solid theme("colors.line");
+}
+.btn-outline:hover {
+  border-color: var(--ink);
+}
+.btn-brass {
+  background: theme("colors.brass");
+  border-color: theme("colors.brass");
+  color: var(--ink);
+}
+.btn-brass:hover {
+  background: theme("colors.brass-dark");
+  border-color: theme("colors.brass-dark");
+  color: theme("colors.paper-2");
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.in {
+  animation: fadeUp 0.7s ease forwards;
+  opacity: 0;
+}
+.d1 {
+  animation-delay: 0.05s;
+}
+.d2 {
+  animation-delay: 0.15s;
+}
+.d3 {
+  animation-delay: 0.25s;
+}
+.d4 {
+  animation-delay: 0.35s;
+}
+
+@keyframes slideFade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
